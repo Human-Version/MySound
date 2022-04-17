@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             if (status == 0){
                 spLoaded = true
             } else {
-                Toast.makeText(this@MainActivity, "Gagal load", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@MainActivity, "Gagal load sound", Toast.LENGTH_SHORT).show()
             }
         }
 
