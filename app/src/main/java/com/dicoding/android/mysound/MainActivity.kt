@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
         btnSound.setOnClickListener{
             if (spLoaded){
-                sp.play(soundId, 1f, 1f, 0, -1, 1f)
+                sp.play(soundId, 1f, 1f, 0, 0, 1f)
             }
         }
     }
